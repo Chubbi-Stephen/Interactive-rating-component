@@ -1,0 +1,9 @@
+So i started with the Html by making the skeleton. Everything sits inside of the class of container, then, inside of the container sits two main tag which carries all of the content.
+
+The focus is to make one of the main tags inactive while the other stays active. Also, the thanks**states becomes active when the rating**state submits the rating of choice.
+
+I personally think the javascript wouldn't contain a lot of code if thought of properly
+
+I hope to complete the css today or tomorrow at most because of electricity issues.
+
+Also will love to attach local storage into the ball game.
