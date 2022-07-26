@@ -41,7 +41,7 @@ Your users should be able to:
 
 ## Author
 
-- Website - [Chubbi-Stephen](https://devchubbiportfolio.netlify.app/)
+- Website - [#devchubbi](https://devchubbiportfolio.netlify.app/)
 - Twitter - [@devchubbi](https://twitter.com/devChubbi)
 
 ## Acknowledgments
