@@ -15,17 +15,6 @@
     <link rel="stylesheet" href="style.css" />
 
     <title>Frontend Mentor | Interactive rating component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <section class="container">
@@ -41,9 +30,9 @@
             feedback is appreciated to help us improve our offering!
           </p>
           <div class="rating__container">
-            <div class="rating__unit" id="unit1"><p>1</p></div>
-            <div class="rating__unit" id="unit2"><p>2</p></div>
-            <div class="rating__unit" id="unit3"><p>3</p></div>
+            <div class="rating__unit"><p>1</p></div>
+            <div class="rating__unit"><p>2</p></div>
+            <div class="rating__unit"><p>3</p></div>
             <div class="rating__unit"><p>4</p></div>
             <div class="rating__unit"><p>5</p></div>
           </div>
@@ -59,7 +48,7 @@
         </div>
 
         <div class="choice__selection">
-          <h5>You selected <span>4</span> out of 5</h5>
+          <h5>You selected <span id="selected__rating">4</span> out of 5</h5>
         </div>
         <!-- Thank you state start -->
         <section>

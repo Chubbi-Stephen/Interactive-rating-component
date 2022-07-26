@@ -1,22 +1,18 @@
-// let ratingUnit = document.querySelector(".rating__unit");
+const ratings = document.querySelectorAll(".rating__unit");
+const button = document.querySelector("button.btn");
+const ratingState = document.getElementById("rating__state");
+const thanksState = document.getElementById("thanks__state");
+const selectedRatingSpan = document.getElementById("selected__rating");
 
-// ratingUnit.addEventListener("click", ratingGesture);
+ratings.forEach((rating) => {
+  rating.addEventListener("click", () => {
+    rating.classList.add("orange");
+    selectedRatingSpan.innerText = rating.innerText;
+  });
+});
 
-
-
-// function ratingGesture() {
-//     document.querySelector(".rating__unit").style.backgroundColor = hsl(25, 97%, 53%);
-
-//     console.log("Happy man")
-    
-// }
-
-const rating = document.querySelectorAll("#unit1, #unit2, #unit3");
-
-rating.forEach(rate => {
-    addEventListener("click", console.log("hello")) 
-})
-
-// function rate() {
-//     console.log("Hello")
-// }
+button.addEventListener("click", () => {
+  ratingState.classList.add("hide");
+  button.classList.add("hide");
+  thanksState.classList.add("show");
+});
