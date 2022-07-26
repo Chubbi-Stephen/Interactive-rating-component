@@ -42,7 +42,7 @@ body {
   color: #fff;
 }
 
-#rating__state section p {
+#rating__state section > p {
   color: hsl(216, 12%, 54%);
   line-height: 1.4rem;
 }
@@ -58,6 +58,8 @@ body {
   width: 2.7rem;
   height: 2.7rem;
   border-radius: 50%;
+    color: hsl(216, 12%, 54%);
+transition: all .4s;
   font-size: 2rem;
   font-weight: 700;
   background: hsl(215, 15%, 23%);
@@ -68,7 +70,7 @@ body {
 
 .rating__unit:hover {
   cursor: pointer;
-  tc
+  color: #fff;
   background: hsl(216, 12%, 54%);
 }
 
